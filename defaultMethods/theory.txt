@@ -1,0 +1,18 @@
+untill 1.7 version
+Every method present inside interface is always public and abstract.
+
+        void m1();
+        public void m1();
+        abstract void m1();
+        public abstract void m1();
+
+    
+    related methods :
+        1.8 default method + static methods
+        
+variables :
+        public static final 
+
+    
+defination : whithout effection implementation classes of we want to add new method to the interface
+             then it is recommended to go for "Default Methods".

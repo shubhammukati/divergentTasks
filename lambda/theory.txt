@@ -1,0 +1,3 @@
+lambda :- Lambda expression can implement an interface which contains a single abstract
+          method [Functional Interface].
+    

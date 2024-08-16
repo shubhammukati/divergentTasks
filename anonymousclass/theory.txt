@@ -1,0 +1,11 @@
+anonymous inner class :- classes without name are anonymous classes.
+
+use :- wherever any interface is there who has more than 1 abstract method we should  go for 
+       this classes.
+
+key points to remember:
+        1. anonymous inner class can extend a normal class.
+        2. anonymous inner clas can extend an abstract class.
+        3. anonymous inner class can implement an interface which contains any number
+            of abstract methods.
+    

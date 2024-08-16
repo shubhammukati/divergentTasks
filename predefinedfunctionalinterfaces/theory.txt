@@ -1,0 +1,22 @@
+Predicate interface : it has only one method and that is "test()";
+                      wherever boolean checker is required than we should go for 
+                      Predicate interface.
+
+                      wherever conditional checking is required we should go with it.
+
+key points to remember 
+    * before use we have to import this interface from "java.util.function.Predicate".
+
+
+Example : write a predicate to check whether the length of the string is 5 or not;
+          Predicate<String> p = s->s.length>5;
+
+Predicate joining :- 
+                  Predicate p1
+                  Predicate p2
+
+                  p1.and(p2)  for both conditional check
+                  p1.or(p2)   for one true or both
+                  p1.negate().test(arg)  except this all the things
+
+            
