@@ -37,6 +37,7 @@ class ArrayContain
         Scanner scanner = new Scanner(System.in);
         int start = scanner.nextInt();
         int end = scanner.nextInt();
+        scanner.close();
 
         ArrayList<Integer> nums = new ArrayList<>();
         nums.add(1);

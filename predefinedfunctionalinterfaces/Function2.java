@@ -3,17 +3,6 @@ package predefinedfunctionalinterfaces;
 import java.util.ArrayList;
 import java.util.function.Function;
 
-class Student
-{
-    String name;
-    int marks;
-
-    public Student(int marks,String name)
-    {
-        this.marks = marks;
-        this.name = name;
-    }
-}
 
 public class Function2 
 {

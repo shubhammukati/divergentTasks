@@ -9,7 +9,7 @@ public class LengthOfString
     {
         char[] chararray = str.toCharArray();
         int len = 0;
-        for(char c : chararray) len++;
+        for(char c: chararray) System.out.println(c);len++;
         return len;
     }
 
